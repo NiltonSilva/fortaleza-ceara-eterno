@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**********************************************/
+/**********************************************/
+/* CONFIGURAÇÃO DO MENU PRINIPAL NO CABEÇALHO */
+/**********************************************/
+/**********************************************/
+header {
+    border: 2px solid black;
+    height: 124px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+}
+
+#menu-principal {
+    color: white;
+}
+
+#menu-principal > a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#menu-principal a:hover {
+    color: #ddd;
+    font-size: 22px;
+}
+
+/**********************************************/
+/**********************************************/
+/******* CONFIGURAÇÃO DO CORPO DO SITE ********/
+/**********************************************/
+/**********************************************/
+.corpo {
+    border: 2px solid red;
+    margin-bottom: 10px;
+}
+
+/**********************************************/
+/**********************************************/
+/*********** CONFIGURAÇÃO DO RODAPÉ ***********/
+/**********************************************/
+/**********************************************/
+footer {
+    border: 2px solid green;
+}
