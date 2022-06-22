@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,6 +21,7 @@ header {
 }
 
 #menu-principal {
+    width: 90%;
     color: white;
 }
 
@@ -58,4 +59,10 @@ ul li {
 /**********************************************/
 footer {
     border: 2px solid green;
+}
+
+#desenvolvido{
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
