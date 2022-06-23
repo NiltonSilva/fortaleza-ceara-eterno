@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   font-size: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -25,16 +25,27 @@ header {
 
 #menu-principal {
   width: 90%;
-  color: orange;
-  margin: 0px auto;
+  margin: auto;
   height: 100px;
   padding: 0;
+  border: 1px solid green;
 }
 
 #menu-principal a {
   text-decoration: none;
   color: blue;
   font-weight: bold;
+  padding: 0px;
+}
+
+.mp{
+  display: inline-block;
+  margin: auto;
+}
+
+.mp:hover {
+  color: blueviolet;
+  font-size: 21px;
 }
 
 ul li {
