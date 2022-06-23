@@ -1,8 +1,11 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  margin: auto;
 }
 
 /**********************************************/
@@ -11,35 +14,38 @@ body {
 /**********************************************/
 /**********************************************/
 header {
-    border: 2px solid black;
-    height: 124px;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 20px;
-    background-color: black;
+  border: 2px solid black;
+  height: 124px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  background-color: black;
 }
 
 #menu-principal {
-    width: 90%;
-    color: white;
+  width: 90%;
+  color: orange;
+  margin: 0px auto;
+  height: 100px;
+  padding: 0;
 }
 
 #menu-principal a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
 }
 
 ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 20px 20px 20px 20px;
+  list-style: none;
+  display: inline;
+  padding: 20px 20px 20px 20px;
 }
 
 #menu-principal a:hover {
-    color: #ddd;
-    font-size: 22px;
+  color: #ddd;
+  font-size: 22px;
 }
 
 /**********************************************/
@@ -47,9 +53,9 @@ ul li {
 /******* CONFIGURAÇÃO DO CORPO DO SITE ********/
 /**********************************************/
 /**********************************************/
-.corpo {
-    border: 2px solid red;
-    margin-bottom: 10px;
+main {
+  border: 2px solid red;
+  margin-bottom: 10px;
 }
 
 /**********************************************/
@@ -58,11 +64,15 @@ ul li {
 /**********************************************/
 /**********************************************/
 footer {
-    border: 2px solid green;
+  border: 2px solid green;
 }
 
-#desenvolvido{
-    margin: auto;
-    display: flex;
-    justify-content: center;
+#desenvolvido,
+#redes-sociais {
+  display: flex;
+  justify-content: center;
+}
+
+#redes-sociais a img {
+  margin: 15px;
 }
